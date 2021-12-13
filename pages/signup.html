@@ -27,10 +27,17 @@
         </div>
       </section>
       <section>
-        <img src="assets\logo.PNG" alt="company logo" />
+        <img src="../assets/logo.PNG" alt="company logo" />
         <div>
           <h3>Login</h3>
           <form>
+            <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            placeholder="Enter your full name"
+          />
+          <inpu
             <input
               type="email"
               name="email"
@@ -43,7 +50,12 @@
               id="password"
               placeholder="enter your password"
             />
-            <button type="submit">Login</button>
+            <label name="avatar"> <i class="fas fa-cloud-upload-alt"></i> Choose your avatar</label>
+            <input 
+            type="file"
+            name="avatar"
+            id="avatar"/>
+            <button type="submit">Create account</button>
           </form>
           <i class="fas fa-user"></i> <a href="pages/signup.html">Create an account</a>?
         </div>
